@@ -114,9 +114,10 @@ posts.forEach((e, i) => {
 })
 
 
-// milestone 2
+// milestone 3
 const btnLike = document.querySelectorAll('.like-button')
 const likeCounter = document.querySelectorAll('.js-likes-counter')
+const likedPosts = []
 
 btnLike.forEach((e, i) => {
     let clickCheck = false
